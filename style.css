@@ -1,0 +1,49 @@
+/* main div holding sidediv and tablediv */
+#mainDiv{
+    width: 100%;
+    overflow: hidden;
+}
+
+/*each cell in the chessboard*/
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-style: inset;
+}
+/* white squares*/
+.whitecell{
+    background-color: white;
+}
+/*black squares */
+.blackcell{
+    background-color: black;
+}
+
+/*holds number of rows*/
+.sideDiv {
+    line-height: 170%;
+    width: 50px;
+    float: left;
+    margin: 0 0 100px 5% ;
+}
+
+.tableDiv{
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.table{
+    
+    max-width: 60%;
+    min-width: 50%;
+}
+
+@media  (max-width: 500px ) {
+    .tableDiv {
+        width: 500px;
+        height: 500px;
+    }
+    
+}
+
