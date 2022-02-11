@@ -31,7 +31,7 @@ for (var i = 0; i < 8; i++) {
                 td.setAttribute('class', 'cell whitecell');
                 tr.appendChild(td);
             }
-
+     
             else {
  
                 td.setAttribute('id', num);
